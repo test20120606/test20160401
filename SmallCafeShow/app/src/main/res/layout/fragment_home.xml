@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#262626">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+        <Button
+            android:id="@+id/button_Popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#262626"
+            android:text="Popular"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+            <View
+                android:id="@+id/view_popular"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:background="#ff0000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+        <Button
+            android:id="@+id/button_Recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#262626"
+            android:text="Recent"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+            <View
+                android:id="@+id/view_recent"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:background="#ff0000"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="52dp" />
+
+</FrameLayout>

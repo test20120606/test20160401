@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="啊丢人嘎嘎嘎嘎嘎法规和发动机地方好地方共和国的几个地方附近都挺好饭店干活烦得很地方很多废话东方红东方红嘎过讽德诵功"/>
+
+</LinearLayout>

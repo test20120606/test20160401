@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a">
+
+    <LinearLayout
+        android:id="@+id/layout_settings"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_layout_title_heigt"
+        android:background="#262626"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_settings"
+        android:orientation="vertical"
+        app:divider="@drawable/setting_divider"
+        app:showDividers="middle|end">
+
+        <TextView
+            android:id="@+id/textView_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/layout_settings"
+            android:background="@drawable/selector_setting_item_bg"
+            android:drawableLeft="@drawable/selector_setting_item_leftimage_feedback"
+            android:drawablePadding="15dp"
+            android:drawableRight="@drawable/selector_setting_item_rightimage"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Feedback"
+            android:textColor="@drawable/selector_setting_item_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_terms"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/view1"
+            android:background="@drawable/selector_setting_item_bg"
+            android:drawableLeft="@drawable/selector_setting_item_leftimage_terms"
+            android:drawablePadding="15dp"
+            android:drawableRight="@drawable/selector_setting_item_rightimage"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Terms of service"
+            android:textColor="@drawable/selector_setting_item_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/view2"
+            android:background="@drawable/selector_setting_item_bg"
+            android:drawableLeft="@drawable/selector_setting_item_leftimage_privacy"
+            android:drawablePadding="15dp"
+            android:drawableRight="@drawable/selector_setting_item_rightimage"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Privacy policy"
+            android:textColor="@drawable/selector_setting_item_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_about"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/view3"
+            android:background="@drawable/selector_setting_item_bg"
+            android:drawableLeft="@drawable/selector_setting_item_leftimage_about"
+            android:drawablePadding="15dp"
+            android:drawableRight="@drawable/selector_setting_item_rightimage"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="About us"
+            android:textColor="@drawable/selector_setting_item_text_color"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/layout_clean"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/view4"
+            android:background="@drawable/selector_setting_item_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_clean"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/selector_setting_item_leftimage_clean"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Clean cache"
+                android:textColor="@drawable/selector_setting_item_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:text="35.6"
+                android:textColor="@drawable/selector_setting_item_text_color" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="Mb"
+                android:textColor="@drawable/selector_setting_item_text_color" />
+        </LinearLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+</RelativeLayout>

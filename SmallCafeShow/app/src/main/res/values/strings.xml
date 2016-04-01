@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmallCafeShow</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_terma">TermaActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_record_video">RecordVideoActivity</string>
+</resources>

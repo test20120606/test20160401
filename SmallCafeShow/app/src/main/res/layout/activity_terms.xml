@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/textView_back"
+        android:background="#262626"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/selector_setting_item_lifeimage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_back"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:text="1.Welcome to Mimic"/>
+</RelativeLayout>
